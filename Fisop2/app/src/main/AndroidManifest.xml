@@ -26,6 +26,13 @@
             android:label="@string/title_activity_solicitar_emprestimo"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name=".ClienteEmprestimo"
+            android:label="@string/title_activity_cliente_emprestimo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Botoes"
+            android:label="@string/title_activity_botoes"></activity>
+        <activity
             android:name=".splash"
             android:label="@string/title_activity_splash"
             android:theme="@style/AppTheme.NoActionBar" />
