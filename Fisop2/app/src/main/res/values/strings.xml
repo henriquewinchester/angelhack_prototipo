@@ -9,7 +9,4 @@
     <string name="title_activity_solicitar_emprestimo">Cadastro Emprestimo</string>
     <string name="title_activity_splash">splash</string>
     <string name="title_activity_escolha">Solicitar Emprestimo</string>
-    <string name="name">Name</string>
-    <string name="enviar">Enviar</string>
-
 </resources>
