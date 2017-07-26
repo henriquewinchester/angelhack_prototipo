@@ -25,17 +25,11 @@ public class Principal extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        // Events
         Button btLojista = (Button)findViewById(R.id.btLojista);
         btLojista.setOnClickListener(this);
-
-//        Button btCliente = (Button)findViewById(R.id.btCliente);
-//        btLojista.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent solicitarEmprestimo = new Intent(Principal.this, SolicitarEmprestimo.class);
-//                startActivity(solicitarEmprestimo);
-//            }
-//        });
+        Button btCliente = (Button)findViewById(R.id.btCliente);
+        btCliente.setOnClickListener(this);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -115,8 +109,13 @@ public class Principal extends AppCompatActivity
     }
 
     public void onClick(View view) {
-        Intent solicitarEmprestimo = new Intent(this, SolicitarEmprestimo.class);
-        startActivity(solicitarEmprestimo);
+        if (view.getId() == R.id.btLojista) {
+            Intent solicitarEmprestimo = new Intent(this, SolicitarEmprestimo.class);
+            startActivity(solicitarEmprestimo);
+        } else if (view.getId() == R.id.btCliente) {
+            Intent clienteEmprestimo = new Intent(this, ClienteEmprestimo.class);
+            startActivity(clienteEmprestimo);
+        }
     }
 
 }
