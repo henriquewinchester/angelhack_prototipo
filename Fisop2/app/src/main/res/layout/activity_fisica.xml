@@ -1,30 +1,30 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:background="#2b5b7f"
-android:orientation="vertical"
-android:padding="16dp">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2b5b7f"
+    android:orientation="vertical"
+    android:padding="16dp">
 
 
-<EditText
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:backgroundTint="#727272"
-    android:hint="Razão Social"
-    android:textColorHint="#fff"
-    android:inputType="textPersonName"
-    android:textColor="#fff"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#727272"
+        android:hint="Nome"
+        android:textColorHint="#fff"
+        android:inputType="textPersonName"
+        android:textColor="#fff"/>
 
 
-<EditText
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginBottom="5dp"
-    android:layout_marginTop="5dp"
-    android:backgroundTint="#727272"
-    android:hint="CNPJ"
-    android:textColorHint="#fff"
-    android:inputType="number" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#727272"
+        android:hint="Sobrenome"
+        android:textColorHint="#fff"
+        android:inputType="text" />
 
 
     <EditText
@@ -33,7 +33,7 @@ android:padding="16dp">
         android:backgroundTint="#727272"
         android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
-        android:hint="Nome Fantasia"
+        android:hint="CPF"
         android:textColorHint="#fff"
         android:inputType="textPersonName" />
 
@@ -43,9 +43,9 @@ android:padding="16dp">
         android:backgroundTint="#727272"
         android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
-        android:hint="Nome do Representante"
+        android:hint="Data de nascimento"
         android:textColorHint="#fff"
-        android:inputType="text" />
+        android:inputType="date" />
 
     <EditText
         android:layout_width="fill_parent"
@@ -53,9 +53,9 @@ android:padding="16dp">
         android:backgroundTint="#727272"
         android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
-        android:hint="CPF do Representante"
+        android:hint="Nome da Mai"
         android:textColorHint="#fff"
-        android:inputType="number" />
+        android:inputType="textPersonName" />
 
     <EditText
         android:layout_width="fill_parent"
@@ -89,13 +89,13 @@ android:padding="16dp">
         android:textColor="#fff" />
 
     <Button
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center_horizontal"
-    android:background="#727272"
-    android:elevation="4dp"
-    android:paddingLeft="70dp"
-    android:paddingRight="70dp"
-    android:text="Solicitar"
-    android:textColor="#fff" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#727272"
+        android:elevation="4dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="Solicitar"
+        android:textColor="#fff" />
 </LinearLayout>
