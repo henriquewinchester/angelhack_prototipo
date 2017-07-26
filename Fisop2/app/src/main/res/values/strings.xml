@@ -12,5 +12,14 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_splash">splash</string>
-    <string name="title_activity_escolha">Solicitar Emprestimo</string>
+
+    <string name="nome">Name</string>
+    <string name="enviar">Enviar</string>
+    <string name="title_activity_escolha">Escolha</string>
+    <string name="colorTxt">#ffcaaa</string>
+    <string name="emailHint"></string>
+    <string name="emailTxt"></string>
+    <string name="guardarBtn"></string>
+    <string name="telefonoTxt"></string>
+    <string name="telefonoHint"></string>
 </resources>

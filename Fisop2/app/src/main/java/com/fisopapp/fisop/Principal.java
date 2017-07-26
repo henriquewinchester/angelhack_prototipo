@@ -110,8 +110,16 @@ public class Principal extends AppCompatActivity
 
     public void onClick(View view) {
         if (view.getId() == R.id.btLojista) {
-            Intent solicitarEmprestimo = new Intent(this, SolicitarEmprestimo.class);
-            startActivity(solicitarEmprestimo);
+//            Intent solicitarEmprestimo = new Intent(this, SolicitarEmprestimo.class);
+            try {
+                Intent solicitarEmprestimo = new Intent(getBaseContext(), Escolha.class);
+                startActivity(solicitarEmprestimo);
+            }
+            catch (Exception e)
+            {
+
+            }
+
         } else if (view.getId() == R.id.btCliente) {
             Intent clienteEmprestimo = new Intent(this, ClienteEmprestimo.class);
             startActivity(clienteEmprestimo);
