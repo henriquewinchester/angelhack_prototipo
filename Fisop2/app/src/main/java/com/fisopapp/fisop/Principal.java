@@ -28,8 +28,18 @@ public class Principal extends AppCompatActivity
         Button btLojista = (Button)findViewById(R.id.btLojista);
         btLojista.setOnClickListener(this);
 
+//        Button btCliente = (Button)findViewById(R.id.btCliente);
+//        btLojista.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent solicitarEmprestimo = new Intent(Principal.this, SolicitarEmprestimo.class);
+//                startActivity(solicitarEmprestimo);
+//            }
+//        });
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
