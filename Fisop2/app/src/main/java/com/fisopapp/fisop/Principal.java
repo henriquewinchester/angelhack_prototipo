@@ -1,7 +1,6 @@
 package com.fisopapp.fisop;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -17,7 +16,7 @@ import android.view.MenuItem;
 import android.widget.Button;
 
 public class Principal extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,10 +25,8 @@ public class Principal extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        // Capture our button from layout
-        Button button = (Button)findViewById(R.id.btLojista);
-        // Register the onClick listener with the implementation above
-        button.setOnClickListener(btLojistaListener);
+        Button btLojista = (Button)findViewById(R.id.btLojista);
+        btLojista.setOnClickListener(this);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -107,16 +104,11 @@ public class Principal extends AppCompatActivity
         return true;
     }
 
+    public void onClick(View view) {
+        Intent solicitarEmprestimo = new Intent(this, SolicitarEmprestimo.class);
+        startActivity(solicitarEmprestimo);
+    }
 
-    // Create an anonymous implementation of OnClickListener
-    private View.OnClickListener btLojistaListener = new View.OnClickListener() {
-        public void onClick(View v) {
-            Uri uri = Uri.parse("http://www.google.com"); // missing 'http://' will cause crashed
-            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-            startActivity(intent);
-
-        }
-    };
 }
 
 
