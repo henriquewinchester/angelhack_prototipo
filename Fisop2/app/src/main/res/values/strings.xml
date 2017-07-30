@@ -22,4 +22,5 @@
     <string name="guardarBtn"></string>
     <string name="telefonoTxt"></string>
     <string name="telefonoHint"></string>
+    <string name="title_activity_fotos">Fotos</string>
 </resources>

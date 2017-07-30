@@ -17,6 +17,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -39,9 +40,15 @@
             android:name=".Principal"
             android:label="@string/title_activity_escolha"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity android:name=".Cadastro" />
         <activity android:name=".Analisis" />
-        <activity android:name=".parabens"></activity>
+        <activity android:name=".parabens" />
+        <activity android:name=".fisica" />
+        <activity
+            android:name=".Fotos"
+            android:label="@string/title_activity_fotos"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
