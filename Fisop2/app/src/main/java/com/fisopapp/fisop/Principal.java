@@ -16,7 +16,7 @@ import android.view.MenuItem;
 import android.widget.Button;
 
 public class Principal extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
+        implements NavigationView.OnNavigationItemSelectedListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,10 +26,6 @@ public class Principal extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         // Events
-        Button btLojista = (Button)findViewById(R.id.btLojista);
-        btLojista.setOnClickListener(this);
-        Button btCliente = (Button)findViewById(R.id.btCliente);
-        btCliente.setOnClickListener(this);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -108,23 +104,7 @@ public class Principal extends AppCompatActivity
         return true;
     }
 
-    public void onClick(View view) {
-        if (view.getId() == R.id.btLojista) {
-//            Intent solicitarEmprestimo = new Intent(this, SolicitarEmprestimo.class);
-            try {
-                Intent solicitarEmprestimo = new Intent(getBaseContext(), Escolha.class);
-                startActivity(solicitarEmprestimo);
-            }
-            catch (Exception e)
-            {
 
-            }
-
-        } else if (view.getId() == R.id.btCliente) {
-            Intent clienteEmprestimo = new Intent(this, ClienteEmprestimo.class);
-            startActivity(clienteEmprestimo);
-        }
-    }
 
 }
 
