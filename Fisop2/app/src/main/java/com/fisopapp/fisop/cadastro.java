@@ -22,4 +22,5 @@ public class Cadastro extends AppCompatActivity implements  View.OnClickListener
             Intent solicitarEmprestimo = new Intent(this, Analisis.class);
             startActivity(solicitarEmprestimo);
     }
+
 }
