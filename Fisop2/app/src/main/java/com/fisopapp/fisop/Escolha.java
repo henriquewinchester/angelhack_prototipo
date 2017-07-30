@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class Escolha extends AppCompatActivity implements  View.OnClickListener {
+public class Escolha extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +41,7 @@ public class Escolha extends AppCompatActivity implements  View.OnClickListener 
             Intent solicitarEmprestimo = new Intent(this, Cadastro.class);
             startActivity(solicitarEmprestimo);
         } else if (view.getId() == R.id.imageView2) {
-            Intent clienteEmprestimo = new Intent(this, ClienteEmprestimo.class);
+            Intent clienteEmprestimo = new Intent(this, fisica.class);
             startActivity(clienteEmprestimo);
         }
     }

@@ -11,9 +11,10 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#727272"
         android:hint="Nome"
-        android:textColorHint="#fff"
         android:inputType="textPersonName"
-        android:textColor="#fff"/>
+        android:text="Luis"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
 
 
     <EditText
@@ -23,72 +24,84 @@
         android:layout_marginTop="5dp"
         android:backgroundTint="#727272"
         android:hint="Sobrenome"
-        android:textColorHint="#fff"
-        android:inputType="text" />
+        android:inputType="text"
+        android:text="Vedolin"
+        android:textColorHint="#fff" />
 
 
     <EditText
+        android:id="@+id/editText2"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#727272"
         android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
+        android:backgroundTint="#727272"
         android:hint="CPF"
-        android:textColorHint="#fff"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:text="123.456.789-00"
+        android:textColorHint="#fff" />
 
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#727272"
         android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
+        android:backgroundTint="#727272"
         android:hint="Data de nascimento"
-        android:textColorHint="#fff"
-        android:inputType="date" />
+        android:inputType="date"
+        android:text="15/04/1975"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#727272"
+        android:hint="Nome da Mae"
+        android:inputType="textPersonName"
+        android:text="Hildecy Ribeiro Souza Vedolin"
+        android:textColorHint="#fff" />
 
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#727272"
         android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
-        android:hint="Nome da Mai"
-        android:textColorHint="#fff"
-        android:inputType="textPersonName" />
-
-    <EditText
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
         android:backgroundTint="#727272"
-        android:layout_marginBottom="5dp"
-        android:layout_marginTop="5dp"
         android:hint="Agência"
-        android:textColorHint="#fff"
-        android:inputType="number" />
+        android:inputType="number"
+        android:text="1234"
+        android:textColorHint="#fff" />
 
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#727272"
         android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
+        android:backgroundTint="#727272"
         android:hint="Numero da Conta"
-        android:textColorHint="#fff"
         android:inputType="number"
-        android:textColor="#fff" />
+        android:text="123.456-7"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
     <EditText
+        android:id="@+id/editText4"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#727272"
         android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
+        android:backgroundTint="#727272"
         android:hint="Valor"
-        android:textColorHint="#fff"
         android:inputType="number"
-        android:textColor="#fff" />
+        android:text="600,00"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
 
     <Button
+        android:id="@+id/theNext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"

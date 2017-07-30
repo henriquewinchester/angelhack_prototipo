@@ -1,5 +1,6 @@
 package com.fisopapp.fisop;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.EditText;
@@ -31,8 +32,15 @@ public class Analisis extends AppCompatActivity {
         orderManager.retrieveOrders(12, 89900);
 
         try {
-            Thread.sleep(6000);
+            Thread.sleep(3000);
             txtMsg.setText("Aprovado!");
+
+            Thread.sleep(2000);
+            txtMsg.setText("Aprovado!");
+
+            Intent parabens = new Intent(this, parabens.class);
+            startActivity(parabens);
+
         } catch (InterruptedException e) {
             txtMsg.setText("Não Aprovado!");
         }
