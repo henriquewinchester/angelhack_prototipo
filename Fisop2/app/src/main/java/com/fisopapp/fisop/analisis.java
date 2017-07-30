@@ -3,7 +3,7 @@ package com.fisopapp.fisop;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class analisis extends AppCompatActivity {
+public class Analisis extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

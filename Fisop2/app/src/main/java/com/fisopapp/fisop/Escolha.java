@@ -38,10 +38,8 @@ public class Escolha extends AppCompatActivity implements  View.OnClickListener 
 
     public void onClick(View view) {
         if (view.getId() == R.id.imageView1) {
-            Intent solicitarEmprestimo = new Intent(this, SolicitarEmprestimo.class);
-//                Intent solicitarEmprestimo = new Intent(getBaseContext(), Escolha.class);
+            Intent solicitarEmprestimo = new Intent(this, Cadastro.class);
             startActivity(solicitarEmprestimo);
-
         } else if (view.getId() == R.id.imageView2) {
             Intent clienteEmprestimo = new Intent(this, ClienteEmprestimo.class);
             startActivity(clienteEmprestimo);
