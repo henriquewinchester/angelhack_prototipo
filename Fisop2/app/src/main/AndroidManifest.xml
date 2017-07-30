@@ -17,7 +17,6 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -37,7 +36,7 @@
             android:label="@string/title_activity_splash"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".escolha"
+            android:name=".Escolha"
             android:label="@string/title_activity_escolha"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".cadastro"></activity>

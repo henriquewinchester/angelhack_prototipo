@@ -42,7 +42,9 @@
                 android:layout_weight="3"
                 android:layout_height="wrap_content"
                 android:id="@+id/colorSpinner"
-                android:entries="@array/colorEntries"/>
+                />
+                <!--android:entries="@array/colorEntries"/>-->
+
         </TableRow>
 
         <TableRow
