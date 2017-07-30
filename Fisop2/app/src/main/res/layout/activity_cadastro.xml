@@ -87,13 +87,14 @@ android:padding="16dp">
         android:textColor="#fff" />
 
     <Button
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center_horizontal"
-    android:background="#727272"
-    android:elevation="4dp"
-    android:paddingLeft="70dp"
-    android:paddingRight="70dp"
-    android:text="Solicitar"
-    android:textColor="#fff" />
+        android:id="@+id/btnSolicitar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#727272"
+        android:elevation="4dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="Solicitar"
+        android:textColor="#fff" />
 </LinearLayout>

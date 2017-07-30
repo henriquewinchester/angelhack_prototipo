@@ -39,8 +39,8 @@
             android:name=".Principal"
             android:label="@string/title_activity_escolha"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".cadastro" />
-        <activity android:name=".analisis" />
+        <activity android:name=".Cadastro" />
+        <activity android:name=".Analisis" />
         <activity android:name=".parabens"></activity>
     </application>
 
