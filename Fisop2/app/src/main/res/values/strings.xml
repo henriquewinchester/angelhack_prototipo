@@ -6,4 +6,5 @@
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_solicitar_emprestimo">Solicitar Emprestimo</string>
+    <string name="title_activity_cliente_emprestimo">Emprestimo para Cliente</string>
 </resources>

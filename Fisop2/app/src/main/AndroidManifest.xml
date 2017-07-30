@@ -24,6 +24,10 @@
         <activity
             android:name=".SolicitarEmprestimo"
             android:label="@string/title_activity_solicitar_emprestimo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ClienteEmprestimo"
+            android:label="@string/title_activity_cliente_emprestimo"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
