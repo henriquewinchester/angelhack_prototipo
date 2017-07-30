@@ -30,7 +30,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Botoes"
-            android:label="@string/title_activity_botoes"></activity>
+            android:label="@string/title_activity_botoes" />
         <activity
             android:name=".splash"
             android:label="@string/title_activity_splash"
@@ -39,7 +39,9 @@
             android:name=".Principal"
             android:label="@string/title_activity_escolha"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".cadastro"></activity>
+        <activity android:name=".cadastro" />
+        <activity android:name=".analisis" />
+        <activity android:name=".parabens"></activity>
     </application>
 
 </manifest>

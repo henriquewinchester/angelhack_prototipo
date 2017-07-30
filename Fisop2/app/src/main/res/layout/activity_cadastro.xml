@@ -5,23 +5,13 @@ android:background="#2b5b7f"
 android:orientation="vertical"
 android:padding="16dp">
 
-<TextView
-    android:id="@+id/contact_form_title"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center_horizontal"
-    android:layout_marginBottom="5dp"
-    android:layout_marginTop="5dp"
-    android:text="Solicitude de Emprestimo"
-    android:textColor="#fff"
-    android:textSize="20sp"
-    android:typeface="serif" />
 
 <EditText
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:backgroundTint="@color/colorPrimaryDark"
+    android:backgroundTint="#727272"
     android:hint="Razão Social"
+    android:textColorHint="#fff"
     android:inputType="textPersonName"
     android:textColor="#fff"/>
 
@@ -39,54 +29,60 @@ android:padding="16dp">
     android:layout_height="wrap_content"
     android:layout_marginBottom="5dp"
     android:layout_marginTop="5dp"
-    android:backgroundTint="@color/colorPrimaryDark"
+    android:backgroundTint="#727272"
     android:hint="CNPJ"
+    android:textColorHint="#fff"
     android:inputType="number" />
 
 
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/colorPrimaryDark"
+        android:backgroundTint="#727272"
         android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
         android:hint="Nome Fantasia"
+        android:textColorHint="#fff"
         android:inputType="textPersonName" />
 
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/colorPrimaryDark"
+        android:backgroundTint="#727272"
         android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
-            android:hint="Nome do Representante"
+        android:hint="Nome do Representante"
+        android:textColorHint="#fff"
         android:inputType="text" />
 
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/colorPrimaryDark"
+        android:backgroundTint="#727272"
         android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
         android:hint="CPF do Representante"
+        android:textColorHint="#fff"
         android:inputType="number" />
 
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/colorPrimaryDark"
+        android:backgroundTint="#727272"
         android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
         android:hint="Agência"
+        android:textColorHint="#fff"
         android:inputType="number" />
 
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/colorPrimaryDark"
+        android:backgroundTint="#727272"
         android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
         android:hint="Numero da Conta"
+        android:textColorHint="#fff"
         android:inputType="number"
         android:textColor="#fff" />
 
@@ -94,7 +90,7 @@ android:padding="16dp">
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
-    android:background="@color/colorPrimaryDark"
+    android:background="#727272"
     android:elevation="4dp"
     android:paddingLeft="70dp"
     android:paddingRight="70dp"
