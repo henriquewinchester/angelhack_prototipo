@@ -1,41 +1,29 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#2b5b7f"
+android:orientation="vertical"
+android:padding="16dp">
 
-    <TableLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
+<TextView
+    android:id="@+id/contact_form_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:text="Solicitude de Emprestimo"
+    android:textColor="#fff"
+    android:textSize="20sp"
+    android:typeface="serif" />
 
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_weight="2"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="@string/nome"/>
-
-            <EditText
-                android:layout_width="0dp"
-                android:layout_weight="3"
-                android:hint="@string/nome"
-                android:layout_height="wrap_content"
-                android:id="@+id/frutaTxt"
-                android:imeOptions="flagNoExtractUi"/>
-        </TableRow>
-
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_weight="2"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="@string/colorTxt"/>
+<EditText
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/colorPrimaryDark"
+    android:hint="Razão Social"
+    android:inputType="textPersonName"
+    android:textColor="#fff"/>
 
             <Spinner
                 android:layout_width="0dp"
@@ -45,59 +33,71 @@
                 />
                 <!--android:entries="@array/colorEntries"/>-->
 
-        </TableRow>
 
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
+<EditText
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:backgroundTint="@color/colorPrimaryDark"
+    android:hint="CNPJ"
+    android:inputType="number" />
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_weight="2"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="@string/telefonoTxt"/>
 
-            <EditText
-                android:layout_width="0dp"
-                android:layout_weight="3"
-                android:hint="@string/telefonoHint"
-                android:layout_height="wrap_content"
-                android:id="@+id/telefonoTxt"
-                android:imeOptions="flagNoExtractUi"
-                android:inputType="phone"/>
-        </TableRow>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:hint="Nome Fantasia"
+        android:inputType="textPersonName" />
 
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+            android:hint="Nome do Representante"
+        android:inputType="text" />
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_weight="2"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="@string/emailTxt"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:hint="CPF do Representante"
+        android:inputType="number" />
 
-            <EditText
-                android:layout_width="0dp"
-                android:layout_weight="3"
-                android:hint="@string/emailHint"
-                android:layout_height="wrap_content"
-                android:id="@+id/emailTxt"
-                android:inputType="textEmailAddress"
-                android:singleLine="true"
-                android:maxLength="20"
-                android:imeOptions="actionSend|flagNoExtractUi"
-                android:imeActionLabel="@string/guardarBtn"/>
-        </TableRow>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:hint="Agência"
+        android:inputType="number" />
 
-    </TableLayout>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:hint="Numero da Conta"
+        android:inputType="number"
+        android:textColor="#fff" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:text="@string/guardarBtn"
-        android:id="@+id/guardarBtn"/>
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/colorPrimaryDark"
+    android:elevation="4dp"
+    android:paddingLeft="70dp"
+    android:paddingRight="70dp"
+    android:text="Solicitar"
+    android:textColor="#fff" />
 </LinearLayout>
