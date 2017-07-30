@@ -28,7 +28,10 @@
         <activity
             android:name=".ClienteEmprestimo"
             android:label="@string/title_activity_cliente_emprestimo"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Botoes"
+            android:label="@string/title_activity_botoes"></activity>
     </application>
 
 </manifest>
